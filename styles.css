@@ -1,0 +1,78 @@
+body{
+    background-image: url("y-so-serious-white.png");
+}
+
+header{
+    background-color: #FAF9F6;
+}
+h1{
+    background-color: darkblue;
+    color: #FAF9F6;
+    width: 25%;
+    display: inline-block;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    margin-left: 18%;
+}
+
+nav{
+    display: inline-block;
+    font-family: 'Tahoma', sans-serif; 
+    margin-left: 19%;
+}
+
+a:link, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.me{
+    float: left;
+    margin-right: 3px;
+}
+
+.about{
+    width: 40%;
+    margin-left: 18%;
+    background-color: #FAF9F6;
+    display: inline-block;
+}
+
+h2{
+    font-family: 'Tahoma', sans-serif;
+    color: darkblue;
+}
+
+p{
+    font-family: 'Tahoma', sans-serif;
+    color: navy;
+}
+
+.logo{
+    max-width: 15%;
+}
+
+footer{
+    background-color: darkblue;
+    color: #FAF9F6;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+}
+
+main::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+aside{
+    width: 20%;
+    float: right;
+    margin-right: 18%;
+    background-color: #FAF9F6;
+
+}
+
+hr.solid {
+    border-top: 3px solid darkblue;
+}
